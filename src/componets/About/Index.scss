@@ -9,7 +9,6 @@
    
 }
 .about-page{
-    top: auto;
     .text-zone{
         position: absolute;
         left: 10%;
@@ -83,7 +82,7 @@ p{
  }  
  .text-animate-hover{
     &:hover{
-        color: white;
+        color:  rgb(119, 16, 16);
     }
  }
  @media (max-width: 768px) {

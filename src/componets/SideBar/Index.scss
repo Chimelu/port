@@ -84,7 +84,13 @@
             content: 'CONTACT';
             
         }
-      } 
+      }
+      a.work-link{
+        &:after{
+            content: 'MY WORKS';
+            
+        }
+      }   
       a.active{
         svg{
             color: red;

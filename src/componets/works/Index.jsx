@@ -2,6 +2,7 @@ import React,{useRef} from 'react';
 import projects from '../project data/projectdata';
 import './Index.scss'; // Import your SCSS file
 import ProjectComponent from '../projectcomp/Index';
+import Loader from 'react-loaders';
 
 function Portfolio() {
   const scrollContainerRef = useRef(null)
@@ -33,6 +34,7 @@ function Portfolio() {
         <button className='m-5' onClick={scrollLeft}>&lt;</button>
         <button onClick={scrollRight}>&gt;</button>
       </div>
+      <Loader type='pacman'/>
 
     </div>
   );

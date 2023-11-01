@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './componets/Home/Index';
 import About from './componets/About/Index';
 import Portfolio from './componets/works/Index';
+import Contact from './componets/contact/Index';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       <Route index element ={<Home/>}/>
       <Route path='/About'element={<About/>}/>
       <Route path= '/works' element={<Portfolio/>}/>
+      <Route path='/contact' element={<Contact/>}/>
       
       
 
