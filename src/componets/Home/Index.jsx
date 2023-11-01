@@ -39,7 +39,8 @@ const Home = () => {
         <img src={Clogo} alt="webdev" className='' /> <span className='c'>C</span><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}/> 
         </h1><br /><h1><AnimatedLetters letterClass={letterClass} strArray={jobTitle} idx={15}/> </h1>
         <h2 className='mt-3 fs-5'><AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/> </h2>
-        
+        <div className='d-flex'>
+
         <Link to='./contact' >
         <Button className='mt-4 flat-button' variant="outline-danger">CONTACT ME</Button>{' '}
 
@@ -48,6 +49,7 @@ const Home = () => {
         <Button className='mt-4 mx-3 fw-bold text-light flat-button' variant="outline-danger">My Works </Button>{' '}
 
         </Link>
+        </div>
       </div>
       <div className='stage-cube-cont'>
         <div className='cubespinner'>

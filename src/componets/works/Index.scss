@@ -46,5 +46,15 @@
     }
   
 
-  
+    @media (max-width: 768px) {
+      .project-card {
+        color: rgb(66, 102, 66);
+        border-radius: 10px;
+        text-align: left;
+        animation: fadeIn 1s ease-in;
+        margin-left: 20px;
+        
+    } 
+
+    }
   

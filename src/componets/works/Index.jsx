@@ -23,7 +23,7 @@ function Portfolio() {
 
   return (
     <div className="portfolio d-flex flex-column container  ">
-      <h1 className="page-title fw-bold text-center text-light">My Projects</h1>
+      <h1 className="page-title fw-bold text-center text-light"><i>My Projects</i></h1>
       <div className="scroll-container gap-1 mt-5" ref={scrollContainerRef}>
         {projects.map((project, index) => (
           <ProjectComponent  key={index} {...project}  />
