@@ -1,0 +1,105 @@
+.page{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.top-tags{
+    bottom:auto;
+    top: 45px;
+}
+.tags{
+    color: rgb(119, 16, 16);
+    opacity: 0.6;
+    position: absolute;
+    bottom:45px;
+    left: 160px;
+    font-family:'La Belle Aurore' ;
+}
+.bottom-tag-html{
+    
+    bottom: -5px;
+    margin-left: -25px;
+
+
+}
+.containerr{
+    width: 100%;
+    will-change: contents;
+    height: 90px;
+    min-height: 566px;
+    position: absolute;
+    opacity: 1;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: forwards;
+    animation-delay: 1s;
+}
+           
+
+
+
+//     &:nth-of-type(3){
+//         animation-delay: 1.3s;
+//     }
+
+//  }  
+//  .text-animate-hover{
+//     &:hover{
+//         color: white;
+//     }
+//  }
+ @media (max-width: 768px) {
+    .page,
+    .about-page {
+        position: relative; // Change to relative positioning
+        width: 100%; // Full width on mobile
+        height: auto; // Adjust height as needed
+        top: 0; // Reset the "top" property
+    }
+
+    .top-tags {
+        top: 0; // Adjust the top position
+    }
+
+    .tags {
+        bottom: 0; // Move to the bottom
+        left: 0; // Adjust the left position
+        font-size: 16px; // Adjust font size
+    }
+
+    .containerr {
+        height: auto; // Remove fixed height
+        top: 0; // Reset the "top" property
+        transform: none; // Remove 3D transform
+    }
+
+    .text-zone {
+        left: 0; // Adjust left position
+        top: 20%; // Adjust the top position
+        width: 100%; // Full width
+        transform: none; // Remove transform
+        display: block; // Remove table-cell and vertical-align
+    }
+
+    h1 {
+        font-size: 32px; // Adjust font size
+        &::before,
+        &::after {
+            display: none; // Hide pseudo-elements on mobile
+        }
+    }
+
+    p {
+        font-size: 16px; // Adjust font size
+    }
+
+    .text-animate-hover {
+        &:hover {
+            color: inherit; // Revert to the default color
+        }
+    }
+}
+
