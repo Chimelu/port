@@ -36,7 +36,7 @@ const Home = () => {
         <span className={`${letterClass} _13`}>I</span>
         <span className={`${letterClass} _14`}>'m</span>
        
-        <img src={Clogo} alt="webdev" className='' /> <span className='c'>C</span><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}/> 
+        <img src={Clogo} alt="webdev" className='cl' /> <span className='c'>C</span><AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15}/> 
         </h1><br /><h1><AnimatedLetters letterClass={letterClass} strArray={jobTitle} idx={15}/> </h1>
         <h2 className='mt-3 fs-5'><AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22}/> </h2>
         <div className='d-flex'>

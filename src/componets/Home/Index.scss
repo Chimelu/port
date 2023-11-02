@@ -40,7 +40,7 @@
             
             opacity: 0.6;
         }
-        img{
+        .cl{
             position: absolute;
             width: 55px;
            rotate: 25deg ;
@@ -173,9 +173,9 @@ h2{
         }
     }
 
-    .c {
-        display: none; // Hide the element with class "c" on mobile
-    }
+    // .c {
+    //     display: none; // Hide the element with class "c" on mobile
+    // }
 
     h2,
     .flat-button {
@@ -186,5 +186,21 @@ h2{
         width: 100%; // Full width on mobile
         padding-top: 46%; // Adjust padding
         top: 80%;
+    }
+    // img{
+    //     position: absolute;
+    //     width: 55px;
+    //    rotate: 25deg ;
+    //    animation: bounceIn 5s 3s backwards ;
+       
+      
+       
+        
+    // }
+    .cl{
+        font-size: medium;
+        left: 30px;
+        top: 24px;
+       
     }
 }

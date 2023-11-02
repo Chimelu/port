@@ -45,7 +45,7 @@ const SideBar = () => {
           </a>
         </li>
         <li>
-          <a target='-bank' rel='noreferrer' href='https://www.linkedin.com/in/ezeoguine-chimelu-b5b258262'>
+          <a target='-bank' rel='noreferrer' href=' https://whatsapp.com/dl/'>
             <FontAwesomeIcon icon={faWhatsapp} color='#4d4d4e'/>
 
           </a>

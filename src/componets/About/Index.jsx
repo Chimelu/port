@@ -8,6 +8,8 @@ import Loader from 'react-loaders'
 
 
 const About = () => {
+  
+  
   const [letterClass, setLetterClass]= useState('text-animate')
   useEffect(()=>{
     setTimeout(()=>{
@@ -23,7 +25,7 @@ const About = () => {
         <h1 className='my-3'>
           <AnimatedLetters strArray={['A','b','o','u','t',' ','m','e','😊',]} idx={15} letterClass={letterClass}/>
         </h1>
-        <div className='mt-2'>
+        <div className='p-tag'>
 
         <p>I'm an enthusiastic and highly motivated tech junior developer. I'm passionate about creating innovative web applications and am always eager to explore and learn new programming languages and technologies. My journey in tech has taught me the importance of adaptability and continuous learning, which I embrace wholeheartedly.</p>
         <p>I'm ready and excited to contribute my skills and dedication to a dynamic team and make a positive impact. With a natural curiosity and a commitment to excellence,  I believe that the ever-evolving tech world offers endless possibilities, and I'm determined to explore them.</p>
