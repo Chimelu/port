@@ -48,7 +48,7 @@ const Contact = () => {
         <h1>
             <AnimatedLetters letterClass={letterClass} strArray={['C','o','n','t','a','c','t','','m','e']} idx={15}/>
         </h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo harum facere quos! Cumque, placeat ut?</p>
+        <p>I'm a full-stack web designer ready to bring your online vision to life. Let's collaborate on your project, from front-end aesthetics to back-end functionality. Reach out today to discuss your web design needs.</p>
         <div className='contact-form'>
             <form className='cf' ref={form} onSubmit={sendEmail}> 
                 <ul>
