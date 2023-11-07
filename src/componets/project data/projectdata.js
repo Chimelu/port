@@ -20,8 +20,8 @@ const projects = [
         image: Ecom,
         description: 'Description of Project 1',
         technologies: ['React', 'Bootstrap', '...'],
-        projectLink: '',
-        githubLink: 'https://github.com/Chimelu/task',
+        projectLink: 'https://ecom-nine-rouge.vercel.app/',
+        githubLink: 'https://github.com/Chimelu/ecom',
       },
       {
         id: 4,
