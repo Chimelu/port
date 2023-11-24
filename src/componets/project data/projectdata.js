@@ -9,7 +9,7 @@ const projects = [
       name: 'Task app',
       image: Task,
       description: 'Description of Project 1',
-      technologies: ['React', 'Bootstrap', '...'],
+      technologies: ['React', 'Bootstrap', 'Node.Js'],
       projectLink: 'https://task-beta-ruddy.vercel.app',
       githubLink: 'https://github.com/Chimelu/task',
     },
