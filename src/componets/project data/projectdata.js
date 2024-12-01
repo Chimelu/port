@@ -2,8 +2,18 @@
 import Task from '../../assets/task pics.png'
 import Ecom from '../../assets/e commerce.png'
 import Bankist from '../../assets/bankistpng.png'
+import Swifdrop from '../../assets/Feature graphic.png'
 
 const projects = [
+  {
+    id: 4,
+    name: 'Swifdrop App',
+    image: Swifdrop,
+    description: 'Swifdrop is a food delivery app featuring user, vendor, and rider sections with live payments via Paystack. Tap "Review Work" to visit the landing page and access download options ',
+    technologies: ['Flutter', 'Node Js', 'Typescript'],
+    projectLink: 'https://swifdrop.ng/',
+    // githubLink: 'https://github.com/yourusername/project1',
+  },
     {
       id: 1,
       name: 'Task app',
@@ -31,6 +41,7 @@ const projects = [
         projectLink: 'https://bankist-peach.vercel.app/',
         githubLink: 'https://github.com/yourusername/project1',
       },
+    
       {
         id: 3,
         name: 'Making payments with paystack API',

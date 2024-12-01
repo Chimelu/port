@@ -1,6 +1,6 @@
 import React  from 'react'
 import AnimatedLetters from '../Animated/Index'
-import me from '../../assets/WhatsApp Image 2023-09-23 at 10.33.06 AM.jpeg'
+import me from '../../assets/DSC_0013.jpg'
 import './Index.scss'
 import { useState,useEffect } from 'react'
 import Loader from 'react-loaders'
