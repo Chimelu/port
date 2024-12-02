@@ -3,6 +3,8 @@ import Task from '../../assets/task pics.png'
 import Ecom from '../../assets/e commerce.png'
 import Bankist from '../../assets/bankistpng.png'
 import Swifdrop from '../../assets/Feature graphic.png'
+import Swifrider from '../../assets/swifrider.png'
+import Sales from '../../assets/Screenshot 2024-12-01 221252.png'
 
 const projects = [
   {
@@ -14,6 +16,25 @@ const projects = [
     projectLink: 'https://swifdrop.ng/',
     // githubLink: 'https://github.com/yourusername/project1',
   },
+  {
+    id: 3,
+    name: 'Swifrider',
+    image: Swifrider,
+    description: 'Description of Project 1',
+    technologies: ['Node.js', 'Socket io','Flutter', 'firebase'],
+    projectLink: 'https://www.swifdrop.ng/drivers',
+    githubLink: 'https://github.com/Chimelu/node-paystack',
+  },
+  {
+    id: 4,
+    name: 'Trader Dashboard',
+    image: Sales,
+    description: 'Description of Project 1',
+    technologies: ['Typescript', 'React', 'Node js' ],
+    projectLink: 'https://bankist-peach.vercel.app/',
+    githubLink: 'https://github.com/yourusername/project1',
+  },
+
     {
       id: 1,
       name: 'Task app',
@@ -41,16 +62,8 @@ const projects = [
         projectLink: 'https://bankist-peach.vercel.app/',
         githubLink: 'https://github.com/yourusername/project1',
       },
-    
-      {
-        id: 3,
-        name: 'Making payments with paystack API',
-        image: '',
-        description: 'Description of Project 1',
-        technologies: ['Node.js', 'paystack API', '...'],
-        projectLink: 'https://paystacknode.onrender.com',
-        githubLink: 'https://github.com/Chimelu/node-paystack',
-      },
+  
+     
   
   
 
